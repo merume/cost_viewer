@@ -9,4 +9,9 @@ services:
       - "3000:3000"
     tty: true
     stdin_open: true
+    environment:
+      - USER_NAME
+      - USER_ID
+      - GROUP_NAME
+      - GROUP_ID
     user: "1000:1000"
